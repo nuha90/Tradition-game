@@ -1,0 +1,55 @@
+//Array of objects
+const quiz = [
+    {
+        q:'1',
+        options:['a','b','c'],
+        answer:0
+    },
+    {
+        q:'2',
+        options:['a','b','c'],
+        answer:1
+
+    },
+    {
+        q:'3',
+        options:['a','b','c'],
+        answer:0
+    },
+    {
+        q:'4',
+        options:['a','b','c'],
+        answer:2
+    },
+    {
+        q:'5',
+        options:['a','b','c'],
+        answer:1
+    },
+    {
+        q:'6',
+        options:['a','b','c'],
+        answer:1
+    },
+    {
+        q:'7',
+        options:['a','b','c'],
+        answer:2
+    },
+    {
+        q:'8',
+        options:['a','b','c'],
+        answer:1
+    },
+    {
+        q:'9',
+        options:['a','b','c'],
+        answer:1
+
+    },
+    {
+        q:'10',
+        options:['a','b','c'],
+        answer:2
+    }
+]
