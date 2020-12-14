@@ -8,15 +8,17 @@
 <body>
     <div class="home-box custom-box">
         <h3>Tradition Quiz Game</h3>
-        <p>"It's a kind of funny quiz game to find the answers regarding different countries traditions based on images". </br></br>Total number of questions: <span class="total-question">10</span></p>
-        <button type="button" class="btn">Start Tradition Game</button>
+        <p>"It's a kind of funny quiz game to find the answers regarding different countries traditions based on images". </br></br>Total number of questions: <span class="total-question"></span></p>
+        <button type="button" class="btn" onclick="startQuiz()">Start Tradition Game</button>
     </div>
 
-    <div class="quiz-box custom-box">
+    <div class="quiz-box custom-box hide">
         <div class="question-number">
               
         </div>
-        <div class="image"><img src=''></div>
+        <div class="image">
+            <img src=''>
+        </div>
         <div class="question-text">
            
         </div>
@@ -27,53 +29,55 @@
             <button type="button" class="btn" onclick="next()">Next</button>
         </div>
         <div class="answers-indicator">
+            
+
                 
         </div>
     </div>
 
-    <div class="result-box custom-box">
+    <div class="result-box custom-box hide">
         <h1>Result</h1>
         <table>
             <tr>
                 <td>
                     Total Questions
                 </td>
-                <td><span class="total-question">10</span></td>
+                <td><span class="total-question"></span></td>
             </tr>
             <tr>
                 <td>
                     Attempt
                 </td>
-                <td><span class="total-attempt">10</span></td>
+                <td><span class="total-attempt"></span></td>
             </tr>
             <tr>
                 <td>
                     Correct
                 </td>
-                <td><span class="total-correct">10</span></td>
+                <td><span class="total-correct"></span></td>
             </tr>
             <tr>
                 <td>
                     Wrong
                 </td>
-                <td><span class="total-wrong">0</span></td>
+                <td><span class="total-wrong"></span></td>
             </tr>
             <tr>
                 <td>
                     Percentage
                 </td>
-                <td><span class="percentage">100%</span></td>
+                <td><span class="percentage"></span></td>
             </tr>
             <tr>
                 <td>
                     Total Score
                 </td>
-                <td><span class="total-score">10</span></td>
+                <td><span class="total-score"></span></td>
             </tr>
 
         </table>
-        <button type="button" class="btn">Try Again</button>
-        <button type="button" class="btn">Go to Home</button>
+        <button type="button" class="btn" onclick = "tryAgainQuiz()">Try Again</button>
+        <button type="button" class="btn" onclick = "goToHome()">Go to Home</button>
 
     </div>
     <script src="question.js"></script>
