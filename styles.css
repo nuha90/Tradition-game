@@ -356,4 +356,11 @@ body {
   body {
     padding: 15px;
   }
+  .quiz-box .question-image img {
+    width: 300px;
+    height: 100px;
+  }
+  .custom-box {
+    height: 100%;
+  }
 }
